@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile of John Michael Maala</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css?version=0.1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bind.css?version=0.1">   
 </head>
 <body>
     <header>
@@ -86,8 +87,10 @@
 
     
 <div id="app">
-  {{ message }} <br>
-  {{'Random number: ' + Math.ceil(Math.random()*6) }}
+    {{ message }} <br>
+    {{'Random number: ' + Math.ceil(Math.random()*6) }}
+    <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.
+    </div>
 </div>
  
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
