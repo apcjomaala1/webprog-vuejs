@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <country/>
+  <countries/>
   <h1>Food</h1>
   <personal-profile/> <br>
   <food-item/> <br>
