@@ -42,8 +42,8 @@
 
     <h2>Picture Gallery</h2>
     <ul>
-        <li><img src="cat.jpg" alt="Cat" width="200"></li>
-        <li><img src="cat_2.jpg" alt="Cat 2" width="200"></li>
+        <li><img src="/cat.jpg" alt="Cat" width="200"></li>
+        <li><img src="/cat_2.jpg" alt="Cat 2" width="200"></li>
     </ul>
 
     <h2>Links</h2>
