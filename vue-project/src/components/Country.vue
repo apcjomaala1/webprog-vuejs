@@ -16,13 +16,13 @@
 
 
 <template>
-    <ul>
+    <ul class="countries">
         <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
     </ul>
 </template>
 
 <style>
-  ul {
+  .countries {
   border: dashed black 1px;
   display: inline-block;
   margin: 10px;
