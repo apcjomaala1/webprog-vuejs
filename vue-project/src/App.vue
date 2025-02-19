@@ -9,6 +9,8 @@
   <food-item2/> <br>
   <food-item/> <br>
   <food-item2/> <br>
+  <comment-form/>
+  <comments/>
 </template>
 
 <style>  
