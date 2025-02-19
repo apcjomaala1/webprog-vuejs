@@ -5,8 +5,8 @@ import FoodItem from './components/FoodItem.vue'
 import FoodItem2 from './components/FoodItem2.vue'
 import PersonalProfile from './components/PersonalProfile.vue'
 import Country from './components/Country.vue'
-import Comments from './components/Comments'
-import CommentForm from './components/CommentForm'
+import Comments from './components/Comments.vue'
+import CommentForm from './components/CommentForm.vue'
 
 const app = createApp(App)
 app.component('food-item', FoodItem)
