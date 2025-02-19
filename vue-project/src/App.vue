@@ -11,6 +11,7 @@
   <food-item2/> <br>
   <comment-form/>
   <comments/>
+  <rest-api/>
 </template>
 
 <style>  
